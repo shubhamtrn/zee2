@@ -1,3 +1,7 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +39,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.leftsec{
+  height: 70vh;
+  width: 20%;
+  background-color: aqua;
+}
+
+.rightsec{
+  background-color: green;
+  height: 70vh;
+  width: 80%;
+}
+
+.midsec{
+  display: flex;
+  flex-direction: row;
 }
