@@ -44,12 +44,13 @@
 .leftsec{
   height: 70vh;
   width: 20%;
-  background-color: aqua;
+  border: 2px solid black;
 }
 
 .rightsec{
-  background-color: green;
-  height: 70vh;
+  text-align: center;
+  border: 2px solid black;
+  height: 150vh;
   width: 80%;
 }
 
